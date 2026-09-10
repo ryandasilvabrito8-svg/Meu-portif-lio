@@ -1,0 +1,29 @@
+/*variaveis globais*/
+:root{
+      --cor-fundo:#0d0d0d;
+      --cor-texto:#f2f2f2;
+      --texto-suave:#b3b3b3;
+      --cor-destaque:#5bbe42;
+      --cor-destaque-escuro:#3f8c2e;
+      --cor-borda:#2a2a2a;
+      --fonte-principal: 'poppins', arial, helvetica, sans-serif;
+      --raio-padrao: 10px;
+      --espaço-padrao: 10px;
+
+
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+/*ESTILIZANDO INDEX*/
+.pagina{
+     width: 900px;
+     margin: 0 auto;
+     padding: 0 50px;
+     background-color:var(--cor-destaque);
+}
